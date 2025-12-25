@@ -52,13 +52,4 @@ Version Control: Git & GitHub
 ### Dashboard
 ![Dashboard](dashboard.png)
 
-git clone https://github.com/USERNAME/REPOSITORY_NAME.git
-cd project-folder
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
-
-
 
