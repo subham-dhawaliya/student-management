@@ -50,7 +50,7 @@ Version Control: Git & GitHub
 
 
 ### Dashboard
-![Dashboard](admin(2).png)
+![Dashboard](dashboard.png)
 
 git clone https://github.com/USERNAME/REPOSITORY_NAME.git
 cd project-folder
