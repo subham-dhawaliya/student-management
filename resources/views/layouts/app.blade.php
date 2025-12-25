@@ -19,12 +19,6 @@
 							<li class="nav-item">
 								<a class="nav-link" href="{{ route('dashboard') }}"><h5>Dashboard</h5></a>
 							</li>
-							<li class="nav-item">
-								<form method="POST" action="{{ route('logout') }}" style="display: inline;">
-									@csrf
-									<button type="submit" class="btn btn-danger btn-sm">Logout</button>
-								</form>
-							</li>
 						@else
 							<li class="nav-item">
 								<a class="nav-link" href="{{ route('login') }}"><h5>Login</h5></a>

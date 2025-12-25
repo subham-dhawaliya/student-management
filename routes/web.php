@@ -21,5 +21,6 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::middleware(['auth', 'admin'])->group(function () {
+    Route::post('/users', [DashboardController::class, 'storeUser'])->name('users.store');
     Route::delete('/users/{user}', [DashboardController::class, 'destroyUser'])->name('users.destroy');
 });
